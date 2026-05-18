@@ -3,14 +3,67 @@
 main()
 {
 	float marks;
+	char grade;
 	
 	printf("enter your marks :");
 	scanf("%f" ,&marks);
 	
-	(marks<=100 && marks>=91)?  printf(" grade : 'A','excellent work!'"):
-	(marks<=90 && marks>=80)?  printf(" grade : 'B','well done.'"):
-	(marks<=79 && marks>=65)?  printf("grade :'C','good job.'"):
-	(marks<=64 && marks>=55)?  printf("grade :'D','you passed,but you could do better'"):
-	(marks<=54 && marks>=33)?  printf("grade :'E','you need to be more attentive'"):  printf("grade :'F','sorry,you failed'");
-
+	
+	(marks<=100 && marks>=91)? ( grade = 'A') :
+	(marks<=90 && marks>=80)?  ( grade = 'B') :
+	(marks<=79 && marks>=65)?  ( grade = 'C') :
+	(marks<=64 && marks>=55)?  ( grade = 'D') :
+	(marks<=54 && marks>=33)?  ( grade = 'E') : ( grade = 'F');
+	
+	
+	
+	
+	switch (grade){
+		
+		case 'A' :
+			printf("your grade is 'A','Excellent work'");
+		break;
+		
+		case 'B' :
+			printf("your grade is 'B','Well done'");
+		break;
+		
+		case 'c' :
+			printf("your grade is 'C','Good job'");
+		break;
+		
+		case 'D' :
+			printf("your grade is 'D','You passed,but you could do better'");
+		break;
+		
+		case 'E' :
+			printf("your grade is 'E','You need to be more attentive'");
+		break;
+		
+		case 'F' :
+		    printf("your grade is 'F','Sorry,you failed'");
+		break;
+		
+		default :
+		    printf("invalid answer");
+		break;	
+		
+	}
+    
+    
+    
+    if (marks<=100 && marks>=91){
+    	printf(" You are eligible for the next level.");
+	}else if (marks<=90 && marks>=80){
+		printf(" You are eligible for the next level.");
+	}else if (marks<=79 && marks>=65){
+		printf(" You are eligible for the next level.");
+	}else if (marks<=64 && marks>=55){
+		printf(" You are eligible for the next level.");
+	}else if (marks<=54 && marks>=33){
+		printf(" You are eligible for the next level.");
+	}else {
+		printf(" you are not eligible for the next level");
+	}
+    
 }
