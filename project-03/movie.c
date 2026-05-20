@@ -2,7 +2,7 @@
 
 main()
 {
-	int date,month,year,catagories,type,time,count,choice,period,tickit_price,food_price;
+	int date,month,year,catagories,type,time,count,choice,period,ticket_price,food_price;
 	float final_bill;
 	
 	printf("          MOVIE TICKIT          \n\n\n");
@@ -69,6 +69,7 @@ main()
 				 	printf("enter your choice :");
 				 	scanf("%d" ,&period);
 				 	
+				 	
 				 	switch (period){
 				 		
 				 		case 1 :
@@ -78,12 +79,50 @@ main()
 				 			printf("enter your time :");
 				 			scanf("%d" ,&time);
 				 			
-				 		break;
+				 				printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+			            break;
 				 		case 2 :
 				 			printf("there is only one show available in afternoon\n");
 				 			printf("press 1 for confirm the show (12:45 PM)\n\n");
 				 			printf("enter your choice :");
 				 			scanf("%d" ,&time);
+				 			
+				 			   	printf("there are four type of tickets are available\n\n");
+				 			    printf("press 1 for 450/- rupees ticket in A row\n");
+				 		    	printf("press 2 for 350/- rupees ticket in B row\n");
+				 		    	printf("press 3 for 250/- rupees ticket in C row\n");
+							    printf("press 4 for 150/- rupees ticket in D row\n");
+			 				    printf("press 5 for 100/- rupees ticket in E row\n\n");
+			 				    printf("enter your choice : ");
+			 				    scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+					 				printf("there are five food items available\n\n");
+					 				printf("press 1 for french fries (120/-)\n");
+					 				printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+			 						printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+
 				 			
 				 		break;
 				 		case 3 :
@@ -93,59 +132,559 @@ main()
 				 			printf("press 3 for 6 PM show\n\n");
 				 			printf("enter your choice :");
 				 			scanf("%d" ,&time);
-				 			
-				 		break;
+				 			       
+				 			   	printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 			    	printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+                    	break;
 				 		case 4 :
 				 			printf("there are two shows available at night\n");
 				 			printf("press 1 for 9 PM show\n");
 				 			printf("press 2 for 10 PM show\n\n");
 				 			printf("enter your choice :");
 				 			scanf("%d" ,&time);
-				 			
-				 		default :
+				 			  
+				 			    printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+				 		break;
+						default :
 				 			printf("invalid answer");
 				 		break;
 				 			printf("enter your choice");
-				 			scanf("%d" ,&tickit_price);
+				 			scanf("%d" ,&ticket_price);
 				 			
 				 			
-				 			switch (tickit_price){
-				 				
-				 				case 1 :
-				 					printf("there are four type of tickets are available\n\n");
-				 					printf("press 1 for 450/- rupees tickits in A row\n");
-				 					printf("press 2 for 350/- rupees tickits in B row\n");
-				 					printf("press 3 for 250/- rupees tickits in C row\n");
-				 					printf("press 4 for 150/- rupees tickits in D row\n");
-				 					printf("press 5 for 100/- rupees tickits in E row\n");
-				 					
-				 					printf("enter your choice");
-				 					scanf("%d" ,&tickit_price);
-				 					printf("\n");
-				 					printf("enter the count of tickit");
-				 					scanf("%d" ,&count);
-				 					
-				 					switch (food_price){
-				 						
-				 						case 1 :
-				 							printf("there are five items available\n\n");
-				 							printf("press 1 for french fries (120/-)\n");
-				 							printf("press 2 for burger and coke combo (99/-\n)");
-				 							printf("press 3 for nachos (140/- for 200gm)\n");
-				 							printf("press 4 for frenkie (70/-)\n");
-				 							printf("press 5 for samosa (120/- for 2 pc)\n");
-				 							
-				 							printf("enter your choice");
-				 							scanf("%d" ,&food_price);
-									 }
 
-							 }
 					 }
-				 }
+				break;
+			    case 2 : 
+			        
+			        printf("you are sucessfully selected movie 2.\n\n");
+				 	printf("press 1 for morning time\n");
+				 	printf("press 2 for afternoon time\n");
+				 	printf("press 3 for evening time\n");
+				 	printf("press 4 for night time\n\n\n");
+				 	
+				 	printf("enter your choice :");
+				 	scanf("%d" ,&period);
+				 	
+				 	switch (period){
+				 		
+				 		case 1 :
+				 			printf("there is only one show available in the morning\n\n");
+				 			printf("press 1 for confirmation (9 AM) :");
+				 			scanf("%d" ,&time);
+				 			
+				 				printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+			            break;
+				 		case 2 :
+				 			printf("there are two show available in afternoon\n");
+				 			printf("press 1 for 12:45 PM show\n");
+				 			printf("press 2 for 1 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			
+				 			   	printf("there are four type of tickets are available\n\n");
+				 			    printf("press 1 for 450/- rupees ticket in A row\n");
+				 		    	printf("press 2 for 350/- rupees ticket in B row\n");
+				 		    	printf("press 3 for 250/- rupees ticket in C row\n");
+							    printf("press 4 for 150/- rupees ticket in D row\n");
+			 				    printf("press 5 for 100/- rupees ticket in E row\n\n");
+			 				    printf("enter your choice : ");
+			 				    scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+					 				printf("there are five food items available\n\n");
+					 				printf("press 1 for french fries (120/-)\n");
+					 				printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+			 						printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+
+				 			
+				 		break;
+				 		case 3 :
+				 			printf("there are three shows available at evening\n");
+				 			printf("press 1 for 4:45 PM show\n");
+				 			printf("press 2 for 5:30 PM show\n");
+				 			printf("press 3 for 6 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			       
+				 			   	printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 			    	printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+                    	break;
+				 		case 4 :
+				 			printf("there are two shows available at night\n");
+				 			printf("press 1 for 9 PM show\n");
+				 			printf("press 2 for 10 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			  
+				 			    printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+				 		break;
+						default :
+				 			printf("invalid answer");
+				 		break;
+				 			printf("enter your choice");
+				 			scanf("%d" ,&ticket_price);
+					}
+					break;
+					case 3 :
+						
+						printf("you are sucessfully selected movie 3.\n\n");
+				 	    printf("press 1 for morning time\n");
+				 	    printf("press 2 for afternoon time\n");
+				 	    printf("press 3 for evening time\n");
+				 	    printf("press 4 for night time\n\n\n");
+				 	
+				     	printf("enter your choice :");
+				 	    scanf("%d" ,&period);
+				 	
+				 	switch (period){
+				 		
+				 		case 1 :
+				 			printf("there are two show available in the morning\n\n");
+				 			printf("press 1 for 9 AM show \n");
+				 			printf("press 2 for 10:30 AM show\n\n");
+				 			printf("enter your time :");
+				 			scanf("%d" ,&time);
+				 			
+				 				printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+			            break;
+				 		case 2 :
+				 			printf("there is only one show available in afternoon\n");
+				 			printf("press 1 for confirm the show (12:45 PM)\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			
+				 			   	printf("there are four type of tickets are available\n\n");
+				 			    printf("press 1 for 450/- rupees ticket in A row\n");
+				 		    	printf("press 2 for 350/- rupees ticket in B row\n");
+				 		    	printf("press 3 for 250/- rupees ticket in C row\n");
+							    printf("press 4 for 150/- rupees ticket in D row\n");
+			 				    printf("press 5 for 100/- rupees ticket in E row\n\n");
+			 				    printf("enter your choice : ");
+			 				    scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+					 				printf("there are five food items available\n\n");
+					 				printf("press 1 for french fries (120/-)\n");
+					 				printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+			 						printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+
+				 			
+				 		break;
+				 		case 3 :
+				 			printf("there are three shows available at evening\n");
+				 			printf("press 1 for 4:45 PM show\n");
+				 			printf("press 2 for 5:30 PM show\n");
+				 			printf("press 3 for 6 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			       
+				 			   	printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 			    	printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+                    	break;
+				 		case 4 :
+				 			printf("there are two shows available at night\n");
+				 			printf("press 1 for 9 PM show\n");
+				 			printf("press 2 for 10 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			  
+				 			    printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+				 		break;
+						default :
+				 			printf("invalid answer");
+				 		break;
+				 			printf("enter your choice");
+				 			scanf("%d" ,&ticket_price);
+			
+		}
 				
 			break;
-			
-			case 2 :
+			case 4 :
+				
+				 printf("you are sucessfully selected movie 4.\n\n");
+				 	printf("press 1 for morning time\n");
+				 	printf("press 2 for afternoon time\n");
+				 	printf("press 3 for evening time\n");
+				 	printf("press 4 for night time\n\n\n");
+				 	
+				 	printf("enter your choice :");
+				 	scanf("%d" ,&period);
+				 	
+				 	switch (period){
+				 		
+				 		case 1 :
+				 			printf("there is only one show available in the morning\n\n");
+				 			printf("press 1 for confirmation (9 AM) :");
+				 			scanf("%d" ,&time);
+				 			
+				 				printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+			            break;
+				 		case 2 :
+				 			printf("there are two show available in afternoon\n");
+				 			printf("press 1 for 12:45 PM show\n");
+				 			printf("press 2 for 1 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			
+				 			   	printf("there are four type of tickets are available\n\n");
+				 			    printf("press 1 for 450/- rupees ticket in A row\n");
+				 		    	printf("press 2 for 350/- rupees ticket in B row\n");
+				 		    	printf("press 3 for 250/- rupees ticket in C row\n");
+							    printf("press 4 for 150/- rupees ticket in D row\n");
+			 				    printf("press 5 for 100/- rupees ticket in E row\n\n");
+			 				    printf("enter your choice : ");
+			 				    scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+					 				printf("there are five food items available\n\n");
+					 				printf("press 1 for french fries (120/-)\n");
+					 				printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+			 						printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+
+				 			
+				 		break;
+				 		case 3 :
+				 			printf("there are three shows available at evening\n");
+				 			printf("press 1 for 4:45 PM show\n");
+				 			printf("press 2 for 5:30 PM show\n");
+				 			printf("press 3 for 6 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			       
+				 			   	printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 			    	printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+                    	break;
+				 		case 4 :
+				 			printf("there are two shows available at night\n");
+				 			printf("press 1 for 9 PM show\n");
+				 			printf("press 2 for 10 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			  
+				 			    printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+				 		break;
+						default :
+				 			printf("invalid answer");
+				 		break;
+				 			printf("enter your choice");
+				 			scanf("%d" ,&ticket_price);
+					}
+					break;
+					case 5 :
+						
+							printf("you are sucessfully selected movie 5.\n\n");
+				        	printf("press 1 for morning time\n");
+				 	        printf("press 2 for afternoon time\n");
+				 	        printf("press 3 for evening time\n");
+				 	        printf("press 4 for night time\n\n\n");
+				 	
+				 	        printf("enter your choice :");
+				 	        scanf("%d" ,&period);
+				 	
+				 	       switch (period){
+				 		
+				 		    case 1 :
+				 			printf("there are two show available in the morning\n\n");
+				 			printf("press 1 for 9 AM show \n");
+				 			printf("press 2 for 10:30 AM show\n\n");
+				 			printf("enter your time :");
+				 			scanf("%d" ,&time);
+				 			
+				 				printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+			            break;
+				 		case 2 :
+				 			printf("there is only one show available in afternoon\n");
+				 			printf("press 1 for confirm the show (12:45 PM)\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			
+				 			   	printf("there are four type of tickets are available\n\n");
+				 			    printf("press 1 for 450/- rupees ticket in A row\n");
+				 		    	printf("press 2 for 350/- rupees ticket in B row\n");
+				 		    	printf("press 3 for 250/- rupees ticket in C row\n");
+							    printf("press 4 for 150/- rupees ticket in D row\n");
+			 				    printf("press 5 for 100/- rupees ticket in E row\n\n");
+			 				    printf("enter your choice : ");
+			 				    scanf("%d" ,&ticket_price);
+				 				
+				 							 				
+					 				printf("there are five food items available\n\n");
+					 				printf("press 1 for french fries (120/-)\n");
+					 				printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+			 						printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+
+				 			
+				 		break;
+				 		case 3 :
+				 			printf("there are three shows available at evening\n");
+				 			printf("press 1 for 4:45 PM show\n");
+				 			printf("press 2 for 5:30 PM show\n");
+				 			printf("press 3 for 6 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			       
+				 			   	printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 			    	printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+                    	break;
+				 		case 4 :
+				 			printf("there are two shows available at night\n");
+				 			printf("press 1 for 9 PM show\n");
+				 			printf("press 2 for 10 PM show\n\n");
+				 			printf("enter your choice :");
+				 			scanf("%d" ,&time);
+				 			  
+				 			    printf("there are four type of tickets are available\n\n");
+				 				printf("press 1 for 450/- rupees ticket in A row\n");
+				 				printf("press 2 for 350/- rupees ticket in B row\n");
+				 				printf("press 3 for 250/- rupees ticket in C row\n");
+				 				printf("press 4 for 150/- rupees ticket in D row\n");
+				 				printf("press 5 for 100/- rupees ticket in E row\n\n");
+				 				printf("enter your choice : ");
+				 				scanf("%d" ,&ticket_price);
+				 				
+				 					printf("there are five food items available\n\n");
+				 					printf("press 1 for french fries (120/-)\n");
+				 					printf("press 2 for burger and coke combo (99/-)\n");
+									printf("press 3 for nachos (140/- for 200gm)\n");
+		 							printf("press 4 for frenkie (70/-)\n");
+									printf("press 5 for samosa (120/- for 2 pc)\n\n");
+				 				    printf("enter your choice : ");
+				 					scanf("%d" ,&food_price);
+				 		break;
+						default :
+				 			printf("invalid answer");
+				 		break;
+				 			printf("enter your choice");
+				 			scanf("%d" ,&ticket_price);
+				 			
+				 		 }
+				 	}
+				break;
+		    case 2 :
 			    printf("you are sucessfully reached Comedy Carnival section.");
 			break;
 			
@@ -376,6 +915,6 @@ main()
 //	
 //
 //	
-     }
 }
-
+     }
+ 
