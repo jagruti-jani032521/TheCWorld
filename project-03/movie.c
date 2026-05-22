@@ -33,13 +33,8 @@ main()
 		printf("press 1 for Thriller Tales Type \n");
 	    printf("press 2 for Comedy Carnival Type\n");
 		printf("press 3 for Romance Type\n");
-		printf("press 4 for Inspirational Type \n");
-		printf("press 5 for Kids Type\n");
-		printf("press 6 for Action Type\n");
-		printf("press 7 for Crime & Suspence Type\n");
-        printf("press 8 for Anime Type\n");
-		printf("press 9 for Mythology Type\n");
-		printf("press 10 for Biopic Type\n\n\n");
+		printf("press 4 for Action Type\n");
+		printf("press 5 for Crime & Suspence Type\n");
 		
 		printf("enter your choice :");
 		scanf("%d" ,&type);
@@ -693,30 +688,10 @@ main()
 			break;
 			
 			case 4 :
-				printf("you are sucessfully reached Inspirational section.");
-			break;
-			
-			case 5 :
-			    printf("you are sucessfully reached Kids section.");
-			break;
-			
-			case 6 :
 		    	printf("you are sucessfully reached Action section.");
 			break;
-			case 7 :
+			case 5 :
 				printf("you are sucessfully reached Crime & Suspence section.");
-			break;
-			
-			case 8 :
-			    printf("you are sucessfully reached Anime section.");
-			break;
-			
-			case 9 :
-		    	printf("you are sucessfully reached Mythology section.");
-			break;
-			
-			case 10 :
-				printf("you are sucessfully reached at Biopic section.");
 			break;
 			
 		    default : 
@@ -730,7 +705,6 @@ main()
 //		printf("press 1 for Thriller Tales Type \n");
 //	    printf("press 2 for Comedy Carnival Type\n");
 //		printf("press 3 for Romance Type\n");
-//		printf("press 4 for Inspirational Type \n");
 //		printf("press 5 for Kids Type\n");
 //		printf("press 6 for Action Type\n");
 //		printf("press 7 for Crime & Suspence Type\n");

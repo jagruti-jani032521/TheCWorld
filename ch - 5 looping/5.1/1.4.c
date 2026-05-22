@@ -2,16 +2,16 @@
 
 main()
 {
-	int i = 1;
+	int i = 0;
 	int n;
 	
 	printf("enter any number : ");
 	scanf("%d" ,&n);
 	
-	while (n >= i)
+	while (n >= i )
 	{
+	    if (n % 2 != 0)
 		printf("%d\t" ,n);
-		printf("%d" ,n % 2 == 0);
 		n--;
 
 	}

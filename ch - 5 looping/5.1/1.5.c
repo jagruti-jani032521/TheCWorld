@@ -8,11 +8,13 @@ main()
 	scanf("%d" ,&start);
 	
 	printf("enter the second number : ");
-	scanf("%d" ,end);
+	scanf("%d" ,&end);
 	
-	while (start % 4 == 0 );
+	
+	while (start <= end )
 	{
-		printf("%d" ,start);
+		if (start % 4 == 0 )
+		printf("%d\t" ,start);
 		start++;
 	}
-}
+} 
