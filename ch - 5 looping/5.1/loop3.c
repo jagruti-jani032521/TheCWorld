@@ -26,3 +26,4 @@ main()
 		(mul == sum)? printf("%d is magic number." , org_n) : 	printf("%d is not magic number." , org_n );
 
 }
+

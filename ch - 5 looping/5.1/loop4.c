@@ -9,9 +9,11 @@ main()
 	scanf("%d" ,&n);
 	
 	while(i < n)
-	{
-		n % i == 0;
-		i++;
+	{  
+	   if (n % i == 0){
+	   	i++;
+	   }
+		
 	}
 	if (n > 1)
 	{
