@@ -2,7 +2,7 @@
 
 main()
 {
-	float a ,temprature,celcius;
+	float a ,temprature;
 	
 	printf("enter the temprature in celcius :");
 	scanf("%f" , &a);

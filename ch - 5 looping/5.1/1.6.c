@@ -12,18 +12,13 @@ main()
 	
 	 printf("%d\t%d\t" ,pre_sum,sum);
 	 	
-	do{
+	while(i <= n)
+	{
 		cur_sum = pre_sum + sum;
 		pre_sum = sum;
 		sum = cur_sum;
-
 		printf("%d\t" ,cur_sum);
         i++;
-
-	}while(i <= n);
+    }
 
 }
-
-
-
-
