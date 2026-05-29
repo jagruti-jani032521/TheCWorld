@@ -1,4 +1,4 @@
-#include <stdio.h>
+2w-#include <stdio.h>
 
 main()
 {
