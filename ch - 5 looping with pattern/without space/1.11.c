@@ -8,7 +8,7 @@ main()
 	{
 		for(j=i; j<=5; j++)
 		{
-			(j%2)? printf("@") : printf("#");
+			(j%2)? printf("@ ") : printf("# ");
 		}
 	printf("\n");	
 	}
