@@ -7,33 +7,30 @@ main()
     printf("Enter your string: ");
     scanf("%s", str);
 
-    printf("\n\n");
-    printf("%s", str);
-
-    int i, count = 0, frequency ;
+    printf("Frequency of each letter :\n");
+    int len = 0;
 
     for (int i = 0; str[i] != '\0'; i++)
     {
-        count++;
+        len++;
     }
-    
-    for (int i = 0; i < count; i++)
+
+    for (int i = 0; i < len; i++)
     {
-        frequency = 1;
-        for (int j = i + 1; j < count; j++)
+        int frequency = 1;
+
+        for (int j = i + 1; j < len; j++)
         {
             if (str[i] == str[j])
             {
                 frequency++;
-                for (int n = j; n < count - 1; n++)
-                {
-                    str[n] = str[n + 1];
-                }
-                count--;
-                j--;
+                str[j] = '\0';
             }
         }
-        printf("\n\n");
-        printf("Frequency of %c is %d", str[i], frequency);
+
+        if (str[i] != '\0')
+        {
+            printf("%c => %d\n", str[i], frequency);
+        }
     }
 }
