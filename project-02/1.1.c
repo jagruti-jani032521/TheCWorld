@@ -50,20 +50,13 @@ main()
 		
 	}
     
-    
-    
-    if (marks<=100 && marks>=91){
-    	printf(" You are eligible for the next level.");
-	}else if (marks<=90 && marks>=80){
-		printf(" You are eligible for the next level.");
-	}else if (marks<=79 && marks>=65){
-		printf(" You are eligible for the next level.");
-	}else if (marks<=64 && marks>=55){
-		printf(" You are eligible for the next level.");
-	}else if (marks<=54 && marks>=33){
-		printf(" You are eligible for the next level.");
-	}else {
-		printf(" you are not eligible for the next level");
+    if (marks<=100 && marks>=33)
+	{
+    	printf('Congratulation! You are eligible for the next level.');
+	}
+	else
+	{
+		printf('Please try again next time');
 	}
     
 }

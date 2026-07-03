@@ -1,4 +1,4 @@
-#include <stdio.h>
++#include <stdio.h>
 
 main()
 {
@@ -15,5 +15,5 @@ main()
 			printf("%d " ,j);
 		}
 	printf("\n");	
-	}
+    }
 }
