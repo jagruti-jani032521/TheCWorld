@@ -11,7 +11,4 @@ main()
     
     printf("area of circle is %.2f :", PI*r*r);
 	
-	
-	
-	
 }

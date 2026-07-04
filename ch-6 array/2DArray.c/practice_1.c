@@ -32,5 +32,5 @@ main()
         }
         printf("\n");
     }
-    printf("2DAraay average : %.2f\n", (float)sum / (row * col));
+    printf("2D Array average : %.2f\n", (float)sum / (row * col));
 }

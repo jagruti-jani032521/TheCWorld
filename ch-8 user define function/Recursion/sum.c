@@ -8,7 +8,7 @@ int fact(int n)
     }
     else
     {
-        return n + fact(n - 1);
+        return n * fact(n - 1);
     }
 }
 
